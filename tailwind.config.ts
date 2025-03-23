@@ -3,9 +3,9 @@ import type { Config } from "tailwindcss";
 const config = {
   darkMode: ["class", "dark"],
   content: [
-    "./pages/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}",
-    "./app/**/*.{ts,tsx}",
+    "./pages/**/*.{ts,tsx,html,js,jsx,css}",
+    "./components/**/*.{ts,tsx,html,js,jsx,css}",
+    "./app/**/*.{ts,tsx,html,js,jsx,css}",
     "./src/**/*.{ts,tsx}",
     "./constants/**/*.{ts,tsx}",
   ],
@@ -86,6 +86,18 @@ const config = {
       fontFamily: {
         inter: "var(--font-inter)",
         "ibm-plex-serif": "var(--font-ibm-plex-serif)",
+      },
+      fontSize: {
+        10: '10px',
+        12: '12px',
+        14: '14px',
+        16: '16px',
+        18: '18px',
+        20: '20px',
+        24: '24px',
+        26: '26px',
+        30: '30px',
+        36: '36px',
       },
       keyframes: {
         "accordion-down": {
